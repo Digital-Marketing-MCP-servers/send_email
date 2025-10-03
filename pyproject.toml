@@ -1,0 +1,12 @@
+# Create pyproject.toml for UV
+
+[project]
+name = "send_email"
+version = "0.1.0"
+description = "Email MCP server"
+dependencies = [
+    "dotenv>=0.9.9",
+    "fastmcp>=0.4.1",
+    "python-dotenv>=1.0.0",
+    "sendgrid>=6.0.0",
+]
